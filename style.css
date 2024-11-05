@@ -1,6 +1,22 @@
 .navbar {
-  background-color: rgb(40, 0, 44) !important;
+  background-color: rgb(175, 255, 251) !important;
+  font-size: 30px;
 }
-.nav-link{
-  color: aliceblue !important;
+.nav-link {
+  color: rgb(0, 0, 0) !important;
+  font-size: 25px;
+  width: 200px;
 }
+body {
+  background-color: rgb(253, 237, 227);
+}
+#nav-bar2 {
+  font-size: 30px;
+}
+
+.carousel-item img{
+  height: 80vh ;
+  object-fit: cover;
+}
+
+
