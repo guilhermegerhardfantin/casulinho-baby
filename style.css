@@ -1,3 +1,6 @@
+*{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 .navbar {
   background-color: rgb(175, 255, 251) !important;
   font-size: 30px;
@@ -8,7 +11,7 @@
   width: 200px;
 }
 body {
-  background-color: rgb(253, 237, 227);
+  background-color: rgb(255, 237, 226);
 }
 #nav-bar2 {
   font-size: 30px;
@@ -17,6 +20,10 @@ body {
 .carousel-item img{
   height: 80vh ;
   object-fit: cover;
+}
+#h5-carousel{
+color: black;
+font-size: 30px;
 }
 
 
