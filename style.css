@@ -8,7 +8,7 @@
   width: 200px;
 }
 body {
-  background-color: rgb(253, 237, 227);
+  background-color: rgb(253, 232, 208);
 }
 #nav-bar2 {
   font-size: 30px;
@@ -16,6 +16,14 @@ body {
 
 .carousel-item img{
   height: 80vh ;
+  object-fit: cover;
+}
+#h1-2{ 
+  /* background-color: rgb(230, 240, 145); */
+}
+#ft{
+  height: 40vh ;
+  width: 40vh;
   object-fit: cover;
 }
 
