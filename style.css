@@ -1,5 +1,9 @@
-*{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+html {
+  scroll-behavior: smooth;
 }
 .navbar {
   background-color: rgb(175, 255, 251) !important;
@@ -11,33 +15,26 @@
   width: 200px;
 }
 body {
-<<<<<<< HEAD
-  background-color: rgb(253, 232, 208);
-=======
-  background-color: rgb(255, 237, 226);
->>>>>>> 957f3ea8e3c15af698c8a18ef3a08b41ba313523
+  background-color: rgb(255, 249, 241);
 }
 #nav-bar2 {
   font-size: 30px;
 }
 
-.carousel-item img{
-  height: 80vh ;
+.carousel-item img {
+  height: 80vh;
   object-fit: cover;
 }
-<<<<<<< HEAD
-#h1-2{ 
+#h1-2 {
   /* background-color: rgb(230, 240, 145); */
 }
-#ft{
-  height: 40vh ;
+#ft {
+  height: 40vh;
   width: 40vh;
   object-fit: cover;
-=======
-#h5-carousel{
-color: black;
-font-size: 30px;
->>>>>>> 957f3ea8e3c15af698c8a18ef3a08b41ba313523
 }
-
-
+.card-img-top {
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+}
