@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
+    <title>Casulinho Baby</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -48,7 +48,7 @@
               <a class="nav-link" href="#categorias">Categorias</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Contato</a>
+              <a class="nav-link" href="#contato">Contato</a>
             </li>
           </ul>
         </div>
@@ -127,25 +127,13 @@
       </div>
       <div class="row my-5 p-3">
         <div class="col-lg-6">
-          <p class="text-justify">
+          <p style="font-size: 22px;" class="text-justify">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis
             quis exercitationem ex esse, a ad. Eius in itaque molestias ipsa ex,
             ducimus placeat aperiam magni impedit praesentium voluptas, error
             magnam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab
             quam rem tenetur ratione optio debitis voluptate assumenda ullam, ad
-            porro consequuntur totam ipsum, officiis atque sequi autem.
-            Consequuntur, sed voluptatem. Lorem ipsum dolor sit, amet
-            consectetur adipisicing elit. Corporis quis exercitationem ex esse,
-            a ad. Eius in itaque molestias ipsa ex, ducimus placeat aperiam
-            magni impedit praesentium voluptas, error magnam. Lorem ipsum dolor,
-            sit amet consectetur adipisicing elit. Ab quam rem tenetur ratione
-            optio debitis voluptate assumenda ullam, ad porro consequuntur totam
-            ipsum, officiis atque sequi autem. Consequuntur, sed voluptatem.
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis
-            quis exercitationem ex esse, a ad. Eius in itaque molestias ipsa ex,
-            ducimus placeat aperiam magni impedi.em ex esse, a ad. Eius in
-            itaque molestias ipsa ex, ducimus placeat aperiam magni impedi.n
-            itaque molestias ipsa ex, ducimus placeat aperiam magni impedi.
+            porro consequu
           </p>
         </div>
         <div class="col-lg-6">
@@ -153,6 +141,7 @@
             class="w-100 img-fluid rounded"
             src="https://picsum.photos/800/600"
             alt=""
+            id="img3"
           />
         </div>
       </div>
@@ -163,7 +152,7 @@
       </div>
       <div class="row my-5 p-3">
         <div class="col-lg-4 col-sm-12">
-          <div class="card w-100 mt-3">
+          <div class="card w-100 mt-4">
             <img src="jjdd.jpg" class="card-img-top" />
             <div class="card-body">
               <h5 class="card-title">Moda Masculina</h5>
@@ -175,7 +164,7 @@
           </div>
         </div>
         <div class="col-lg-4 col-sm-12">
-          <div class="card w-100 mt-3">
+          <div class="card w-100 mt-4">
             <img
               src="mmmmmmmmmmmmmmmmmmmmmmmmmmmmmm.jpg"
               class="card-img-top"
@@ -190,7 +179,7 @@
           </div>
         </div>
         <div class="col-lg-4 col-sm-12">
-          <div class="card w-100 mt-3">
+          <div class="card w-100 mt-4">
             <img src="hhhh.jpg" class="card-img-top" />
             <div class="card-body">
               <h5 class="card-title">Moda Infantil</h5>
@@ -200,6 +189,36 @@
               </p>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div class="row my-5 p-3">
+        <div id="contato" class="col-lg-12">
+          <h1  class="text-center">Entre em Contato</h1>
+        </div>
+      </div>
+      <div class="row my-5 p-3">
+        <div class="col-lg-12">
+          <form id="form-contato">
+            <label for="">Nome Completo</label>
+            <input class="form-control mb-3" type="text" required />
+            <label for="">Email</label>
+            <input
+              type="email"
+              class="form-control mb-3"
+              placeholder="exemplo@gmail.com"
+              required
+            />
+            <label for="">Mensagem</label>
+            <textarea
+              class="form-control mb-3"
+              id=""
+              placeholder="Digite sua mensagem!"
+              cols="30"
+              rows="10"
+            ></textarea>
+            <button id="botaoform" class="btn btn-lg px-5">Enviar</button>
+          </form>
         </div>
       </div>
       <footer
@@ -213,13 +232,20 @@
 
         <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
           <li class="ms-3">
-            <a target="_blank" class="text-body-secondary" href="https://api.whatsapp.com/send?phone=554388175153&text=oi%20tudo%20bem"
+            <a
+              target="_blank"
+              class="text-body-secondary"
+              href="https://api.whatsapp.com/send?phone=554388175153&text=oi%20tudo%20bem"
               ><i class="fa-brands fa-whatsapp fa-fw fa-2x"></i>
             </a>
           </li>
 
           <li class="ms-3">
-            <a target="_blank" class="text-body-secondary" href="https://www.instagram.com/noeliaanjo">
+            <a
+              target="_blank"
+              class="text-body-secondary"
+              href="https://www.instagram.com/noeliaanjo"
+            >
               <i class="fa-brands fa-instagram fa-fw fa-2x"></i
             ></a>
           </li>
